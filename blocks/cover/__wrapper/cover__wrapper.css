@@ -1,0 +1,25 @@
+.cover__wrapper {
+    background-size: cover;
+    background: url("../../../images/cover/background.png") center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-height: 740px;
+}
+
+.cover__wrapper:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2a2c2f;
+    opacity: 0.3;
+}
+
+.cover__wrapper:hover::before {
+    opacity: 0.8;
+}
