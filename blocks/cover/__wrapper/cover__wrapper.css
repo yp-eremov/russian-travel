@@ -1,6 +1,6 @@
 .cover__wrapper {
     background-size: cover;
-    background: url("../../../images/cover/background.png") center;
+    background: url("../../../images/cover/background.jpg") center;
     display: flex;
     flex-direction: column;
     justify-content: center;
