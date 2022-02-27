@@ -5,9 +5,17 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    width: 560px;
+    max-width: 560px;
     text-align: center;
     color: #ffffff;
     text-decoration: none;
     z-index: 2;
+}
+
+@media screen and (max-width: 500px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

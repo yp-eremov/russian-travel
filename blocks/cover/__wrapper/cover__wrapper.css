@@ -1,6 +1,6 @@
 .cover__wrapper {
-    background-size: cover;
-    background: url("../../../images/cover/background.jpg") center;
+    background-size: 100% 100%;
+    background-image: url("../../../images/cover/background.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,4 +22,22 @@
 
 .cover__wrapper:hover::before {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__wrapper {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__wrapper {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cover__wrapper {
+        min-height: 200px;
+    }
 }

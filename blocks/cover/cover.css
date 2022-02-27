@@ -3,3 +3,24 @@
     max-width: calc(100% - 96px);
     position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 100%;
+        margin: 92px 0px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 100%;
+        margin: 90px 0px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cover {
+        max-width: 100%;
+        margin: 66px 0px 0;
+    }
+}

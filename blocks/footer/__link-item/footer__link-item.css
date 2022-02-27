@@ -8,3 +8,13 @@
 .footer__link-item:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 500px) {
+    .footer__link-item {
+        display: block;
+        margin: 0 0 32px 0;
+    }
+    .footer__link-item:last-child {
+        margin-bottom: 48px;
+    }
+}
