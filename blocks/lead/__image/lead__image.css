@@ -3,19 +3,14 @@
     margin: 64px auto 0;
 }
 
-@media screen and (max-width: 320px) {
-    .lead__image {
-        margin: 40px auto 0;
-    }
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .lead__image {
         margin: 56px auto 0;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
     .lead__image {
-        margin: 56px auto 0;
+        margin: 40px auto 0;
     }
 }
