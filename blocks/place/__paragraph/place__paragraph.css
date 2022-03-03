@@ -1,16 +1,17 @@
 .place__paragraph {
     margin: 0;
-    padding-bottom: 26px;
+    padding-top: 26px;
 }
 
-place__paragraph:last-child {
-    padding-bottom: 0px;
+.place__paragraph:first-child {
+    padding-top: 0px;
 }
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
-        padding-bottom: 25px;
+        padding-top: 25px;
     }
+
 }
 
 @media screen and (max-width: 500px) {
